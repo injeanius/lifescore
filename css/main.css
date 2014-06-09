@@ -1,0 +1,45 @@
+article {
+
+	height: 400px;
+	margin: 0;
+	background-color: #ffbb00;
+	
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-size:20px;
+
+}
+
+#scorecard {
+
+	border: 1px solid black;
+	width: 50%;	
+	margin: auto;
+	border-bottom: 10px solid gray;
+	border-right: 10px solid gray;
+
+	}
+
+li {
+
+	list-style: none;
+}
+
+button {
+	font-family: 'PT Sans', sans-serif;
+	border: 1px solid black;
+	width: 150px;
+
+}
+
+input {
+	text-align: center;
+
+}
