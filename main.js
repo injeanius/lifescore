@@ -15,6 +15,11 @@ var self_score = {
 	"value": parseInt($('.self').val())
 };
 
+var home_score = {
+	"type": "Home",
+	"value": parseInt($('.home').val())
+};
+
 var work_score = {
 	"type": "Work",
 	"value": parseInt($('.work').val())
@@ -36,7 +41,7 @@ var spirituality_score = {
 	};	
 
 
-var allScores = [self_score, work_score, money_score, relationships_score,service_score, spirituality_score];
+var allScores = [self_score, home_score, work_score, money_score, relationships_score,service_score, spirituality_score];
 
 var sortedScores = allScores.sort(function(a,b){
 		return a.value-b.value});
